@@ -2,7 +2,7 @@ Summary:	XEmacs TeXinfo support
 Summary(pl):	XEmacs TeXinfo support
 Name:		xemacs-texinfo-pkg
 %define 	srcname	texinfo
-Version:	1.19
+Version:	1.20
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
