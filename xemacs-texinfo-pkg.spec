@@ -2,12 +2,12 @@ Summary:	XEmacs TeXinfo support
 Summary(pl):	Wsparcie dla TeXinfo w edytorze XEmacs
 Name:		xemacs-texinfo-pkg
 %define 	srcname	texinfo
-Version:	1.21
-Release:	2
+Version:	1.25
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	18bfef25e64ab43e6c6fc19f17631370
+# Source0-md5:	a2755f74e1f4c76ba36d844abc718d3a
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
