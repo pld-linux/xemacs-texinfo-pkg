@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XEmacs TeXinfo support.
 
-%description -l pl 
+%description -l pl
 Wsparcie dla TeXinfo w edytorze XEmacs.
 
 %prep
@@ -29,13 +29,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/texinfo/ChangeLog 
+gzip -9nf lisp/texinfo/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/texinfo/ChangeLog.gz 
+%doc lisp/texinfo/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
