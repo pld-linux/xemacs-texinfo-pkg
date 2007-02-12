@@ -1,5 +1,5 @@
 Summary:	XEmacs TeXinfo support
-Summary(pl):	Wsparcie dla TeXinfo w edytorze XEmacs
+Summary(pl.UTF-8):   Wsparcie dla TeXinfo w edytorze XEmacs
 Name:		xemacs-texinfo-pkg
 %define 	srcname	texinfo
 Version:	1.25
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XEmacs TeXinfo support.
 
-%description -l pl
+%description -l pl.UTF-8
 Wsparcie dla TeXinfo w edytorze XEmacs.
 
 %prep
